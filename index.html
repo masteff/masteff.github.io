@@ -1,1 +1,185 @@
-Hello Martin
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martin Steffan Portfolio</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="/img/maSteff.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle-navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__itm"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__itm"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__itm"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__itm"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction  -->
+
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Martin Steffan</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">test engineer</p>
+        <img src="img/Profil.jpg" alt="a picture of Martin Steffan" class="intro__img">
+    </section>
+
+    <!-- My Services -->
+
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>test method design</h3>
+                <p>
+                    Product quality not only has a major impact on customer satisfaction and company reputation. It will also cause financial damage if not thoroughly investigated throughout the production process.
+                    Advanced test methods will guarantee the conformity of product specifications while keeping the throughput high. For me as a test developer the challange is to gain a deep understanding 
+                    of the product and its functionalities without being an expert in every topic. My broad knowledge in many technical fields helps me with that, as well as always keeping close contact with the development department.
+                </p>
+            </div>
+            <div class="service">
+                <h3>test method automation</h3>
+                <p>
+                    Once the design and scope have been determined, the goal is to automate as much as possible. Not only does the test duration play a role, but also the elimination of human error.
+                    My main competence lies in hardware automation. I started out as a physics engineer writing labiew code to control a huge VUV ellipsometer at the Metrology light source in Berlin. Not only did the software control multiple stepper
+                    motors, pumps etc. but also interacted with the undulator and monochromator of the MLS. I continued with LabVIEW code for testing high frequency trandsucer in optical data transmission, but also continued studying other programming languages
+                    mostly out of own interest. After obtaining profound knoledge in most of the common languages I recently started to deep dive into PLC sprogramming with the help of structured test, which again is a field oon its own.
+                </p>
+            </div>
+            <div class="service">
+                <h3>test method validation</h3>
+                <p>
+                    Once the design and scope have been determined, the goal is to automate as much as possible. Not only does the test duration play a role, but also the elimination of human error.
+                    My main competence lies in hardware automation. I started out as a physics engineer writing labiew code to control a huge VUV ellipsometer at the Metrology light source in Berlin. Not only did the software control multiple stepper
+                    motors, pumps etc. but also interacted with the undulator and monochromator of the MLS. I continued with LabVIEW code for testing high frequency trandsucer in optical data transmission, but also continued studying other programming languages
+                    mostly out of own interest. After obtaining profound knoledge in most of the common languages I recently started to deep dive into PLC sprogramming with the help of structured test, which again is a field oon its own.
+                </p>
+            </div>
+        </div>
+
+        <a href="#work" class="btn">See My Work</a>
+    </section>
+
+    <!-- About Me -->
+
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Test Engineer based in Berlin</p>
+
+        <div class="about-me__body">
+            <p>I am a typical engineer, who strongly believes that every problem must have a solution. One just has to
+                put the effort and dedication into finding it. Also the first attempt doesn't always have to be perfect
+                and beautiful.
+                It just has to get the job done and gudie you in the right direction. As you learn more and more about a
+                topic you will find
+                more beautiful solutions and finally the perfect one.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat.</p>
+        </div>
+
+        <img src="img/homePic.PNG" alt="a picture of Martin in front of Bogota" class="about-me__img">
+    </section>
+
+    <!-- My Work -->
+
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">A Selection of my range of work</p>
+
+        <div class="portfolio">
+            <!-- Portfolio 01 -->
+            <a href="esp32-web-uart.html" class="portfolio__item">
+                <img src="img/esp32.jpg" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio 02 -->
+            <a href="esp32-web-uart.html" class="portfolio__item">
+                <img src="img/UItesting.jpg" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio 01 -->
+            <a href="esp32-web-uart.html" class="portfolio__item">
+                <img src="img/marduino.jpg" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio 02 -->
+            <a href="esp32-web-uart.html" class="portfolio__item">
+                <img src="img/portfolio-01.JPG" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio 01 -->
+            <a href="esp32-web-uart.html" class="portfolio__item">
+                <img src="img/portfolio-01.JPG" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio 02 -->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio 01 -->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-01.JPG" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio 02 -->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio 01 -->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-01.JPG" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio 02 -->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:martin_steffan@gmx.de" class="footer__link">hello@martin.mail</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://www.google.com/" class="social-list__link">
+                    <i class="fab fa-xing"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://www.google.com/" class="social-list__link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://www.google.com/" class="social-list__link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://www.google.com/" class="social-list__link">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
