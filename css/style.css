@@ -153,7 +153,7 @@ h3 {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 1em;
+    padding: .5em 1em;
 }
 
 .nav {
@@ -194,7 +194,7 @@ header {
 }
 
 .nav-toggle {
-    padding: .5em;
+    padding: 1em;
     background: transparent;
     border: 0;
     cursor: pointer;
@@ -233,8 +233,8 @@ header {
 .hamburger::before,
 .hamburger::after {
     background: var(--clr-accent);
-    width: 2em;
-    height: 3px;
+    width: 3em;
+    height: 5px;
     border-radius: 1em;
     transition: transform 250ms ease-in-out;
 }
@@ -247,8 +247,8 @@ header {
     right: 0;
 }
 
-.hamburger::before {top: 6px;}
-.hamburger::after {bottom: 6px;}
+.hamburger::before {top: 10px;}
+.hamburger::after {bottom: 10px;}
 
 .intro {
     position: relative;
