@@ -43,32 +43,28 @@
     </section>
 
     <div class="portfolio-item-individual">
-        <p>One of the many goals in a production environment is the optimisation of the employees' workload.
-            In highly automated processes the operator might only switch on a machine and then work on a completely
-            different topic
-            until he gets the notification, that the former machine has completed its work or if there was some kind of
-            failure. Often signal lamps or tones are used in this scenario.
-        </p>
-
-        <p>But these approaches are very limited in the amount of information provided. Why not give the operator the
-            opportunity
-            to get the full information on a mobile device that can be carried around all the time?
-        </p>
-        <p>Of course the information channels should be secured and due to company policy its often not allowed
-            to use the company network in the production area. A bluetooth application would limit the number of operators to just
-            one.</p>
         <p>
-            A cheap an easy progrmmable solution would be the integration of an ESP32 microcontroller, which has the
-            functionality to set
-            up isolated wifi network with an integrated webserver. The ESP can communicate directly to the machine over
-            a simple
-            protocol like uart and provide the infomration given over a werbpage.
+            Designing and implementing test methods in production is not the only aspect of good quality control. 
+            It's also very important to collect and analyze all quality data which emerges to continusly improve the processes.
+            This can start by acivities as simple as talking to the relevant operators and ask for theier feedback. They are often the best souce of information.
+            But there are also very ellaborate methods of collecting, analyzing and reporting automation.
         </p>
-        <p>In the project <a class="item_link" href="www.google.com">ESP32 webserver to uart</a> I programmed a simple mocking station in
-            c# sharp,
-            and a firmware for the esp32 which serves a web page to anyone and gives updates about the stations progres.
-            Please also check out the short video which shows operation.
+        <p>
+            Our products final test has roughly about 200-300 test points. analyzing if the test method is applicable for every test point would be a tidious task.
+            Luckily statistical software like minitab allows for heavy automation through scripting. If thats not always possible one could use windows webdriver to automate almost every windows software.
+            See my projects here.
         </p>
+        <img class="item_pics" 
+            src="/img/medicaleqipment.PNG"
+            alt="" >
+        <p>
+            Analyzing and plotting data is often done in python through the usual librarys like pandas and matplotlib. I use them as well to get quick and easy infomration and help for reporting.
+            But not all your colluegues are sopthistcated programmers. So I also like to provide use friendly programms with a UI which the collugues can use.
+            See my program here which loads test reports and does some basic visualisation in c#. These programs can be quite easy tested through the webdriver interface.
+        </p>
+        <img class="item_pics" 
+            src="/img/medicaleqipment.PNG"
+            alt="" >
     </div>
 
     <!-- Footer -->
