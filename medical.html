@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martin Steffan Portfolio</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="/img/maSteff.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle-navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__itm"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__itm"><a href="index.html#services" class="nav__link">My Services</a></li>
+                <li class="nav__itm"><a href="index.html#about" class="nav__link">About Me</a></li>
+                <li class="nav__itm"><a href="index.html#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            production<strong>medical devices</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">quality and regulatory</p>
+        <img src="/img/medical.jpg" alt="" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>
+            Almost 5 years I am working in the production of medical devices. Medical devices have much highner quality expectations then any other products except maybe automotiv.
+            Here I am mainly responsible for the design transfer of new products into production. I have to think of new testmethods, define them, program them, engineer equipment, design equipment, get quotes, ce decalartion.
+            Write inspections instructiojns, train operators. validate the methods, document everything
+        </p>
+        <img class="item_pics" 
+            src="/img/medicaleqipment.PNG"
+            alt="" >
+        <p>But these approaches are very limited in the amount of information provided. Why not give the operator the
+            opportunity
+            to get the full information on a mobile device that can be carried around all the time?
+        </p>
+        <p>Of course the information channels should be secured and due to company policy its often not allowed
+            to use the company network in the production area. A bluetooth application would limit the number of operators to just
+            one.</p>
+        <p>
+            A cheap an easy progrmmable solution would be the integration of an ESP32 microcontroller, which has the
+            functionality to set
+            up isolated wifi network with an integrated webserver. The ESP can communicate directly to the machine over
+            a simple
+            protocol like uart and provide the infomration given over a werbpage.
+        </p>
+        <p>In the project <a class="item_link" href="www.google.com">ESP32 webserver to uart</a> I programmed a simple mocking station in
+            c# sharp,
+            and a firmware for the esp32 which serves a web page to anyone and gives updates about the stations progres.
+            Please also check out the short video which shows operation.
+        </p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="footer__link">find me on</p>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://www.linkedin.com/in/martin-steffan-2489ab23b/" class="social-list__link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://www.xing.com/profile/Martin_Steffan5/cv" class="social-list__link">
+                    <i class="fab fa-xing"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://github.com/masteff" class="social-list__link">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://masteff.github.io/" class="social-list__link">
+                    <i class="fa-solid fa-globe"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="/js/index.js"></script>
+
+</body>
+
+</html>
