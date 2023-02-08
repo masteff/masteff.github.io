@@ -498,6 +498,11 @@ header {
     margin-right: auto;
 }
 
+.video {
+    width: 100%;
+    height: auto;
+}
+
 .item_link {
     color: var(--clr-accent);
     text-decoration: none;
