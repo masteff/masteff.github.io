@@ -52,6 +52,11 @@ section {
     padding: 5em 2em;
 }
 
+.sect-individual {
+    padding: 5em 2em 4em;
+}
+
+
 img {
     display: block;
     max-width: 100%;
@@ -370,7 +375,7 @@ header {
 @media (min-width: 600px) {
     .about-me {
         display: grid;
-        grid-template-columns: 1fr 200px;
+        grid-template-columns: 1fr 250px;
         grid-template-areas: 
             "title img"
             "subtitle img"
@@ -495,15 +500,18 @@ header {
     margin-right: auto;
 }
 
-.portfolio-item-individual .item_pics {
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
+.item_pics {
+    width: 100%;
+    height: auto;
+    /* margin-left: 10%;
+    margin-right: 10%; */
 }
 
 .video {
-    width: 100%;
+    width: 90%;
     height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .item_link {
